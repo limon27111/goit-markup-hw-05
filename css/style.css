@@ -68,6 +68,10 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 text-decoration: none;
+
+transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav-list {
     padding: 0;
@@ -123,6 +127,10 @@ address {
 }
 .address-link {
     text-decoration: none;
+
+    transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero {
     background-color: var(--hero-bg-color);
@@ -504,6 +512,10 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+
+transition-property: background-color, color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-button {
     margin-right: 24px;
