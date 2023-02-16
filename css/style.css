@@ -529,7 +529,7 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
 
-transition-property: background-color, color;
+transition-property: background-color, color, box-shadow;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
